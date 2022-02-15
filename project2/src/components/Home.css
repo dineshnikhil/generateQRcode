@@ -1,0 +1,150 @@
+.home-div {
+	background-color: #001233;
+	display: grid;
+	grid-template-columns: 8fr 4fr;
+}
+
+.child-two {
+	background-color: #33415c;
+	height: 100%;
+}
+
+#qr-code-img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 12%;
+	margin-top: 20%;
+
+	width: 40%;
+	height: auto;
+}
+
+.form-div {
+	width: 70%;
+	margin: 0 auto;
+}
+
+textarea {
+	background-color: transparent;
+	border: 3px solid white;
+	border-radius: 10px;
+
+	width: 92%;
+	padding: 3%;
+	margin-bottom: 3%;
+
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.9rem;
+}
+
+.get-btn {
+	display: block;
+	margin: 0 auto;
+	background-color: #0466c8;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+
+	width: 100%;
+
+	padding: 4% 12%;
+	margin: 4% 0;
+	border: none;
+	border-radius: 8px;
+	transition: 0.3s ease-in-out;
+}
+
+.get-btn:hover {
+	background-color: #023e7d;
+	cursor: pointer;
+}
+
+#download-btn {
+	text-decoration: none;
+}
+
+/* ======================= Child one section styling =================== */
+
+.child-one {
+	padding: 2% 4%;
+}
+
+#brand {
+	font-family: 'Odibee Sans', cursive;
+	letter-spacing: 1px;
+	color: #0466c8;
+
+	margin: 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links-section {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+}
+
+.login-btn {
+	background-color: #0466c8;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+
+	padding: 0% 20%;
+	border: none;
+	border-radius: 8px;
+	transition: 0.2s ease-in-out;
+}
+
+.login-btn:hover {
+	cursor: pointer;
+	background-color: #023e7d;
+}
+
+.info {
+	margin: 20% 0;
+
+	font-size: 1.4rem;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+.info-heading {
+	margin: 0;
+
+	font-family: 'Odibee Sans', cursive;
+}
+
+.info h2 {
+	margin: 0;
+
+	font-family: 'Odibee Sans', cursive;
+}
+
+.info p {
+	margin-top: 10%;
+	font-size: 1.2rem;
+}
+
+.createAccount-btn {
+	background-color: #0466c8;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+
+	padding: 1.5% 8%;
+	border: none;
+	border-radius: 8px;
+	transition: 0.2s ease-in-out;
+
+	margin-top: 3%;
+}
+
+.createAccount-btn:hover {
+	background-color: #023e7d;
+	cursor: pointer;
+}
