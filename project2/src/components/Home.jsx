@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 import './Home.css';
 
-function Home() {
+function Home(props) {
 
     const [textinput, setTextinput] = useState('');
     const [word, setWord] = useState('example');
@@ -15,7 +15,7 @@ function Home() {
   return (
       <div className="home-div">
           <div className="child-one">
-            <Nav />
+            <Nav onShow={props.onShow}/>
             <div className='info'>
                 <h1 className='info-heading'>Generate QR Code</h1>
                 <h2>For Your Custom Text By Click Of A Button</h2>
